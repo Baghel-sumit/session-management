@@ -1,0 +1,17 @@
+{
+  "name": "session-management",
+  "version": "1.0.0",
+  "description": "```\r     john.doe@example.com: password123\r     jane.smith@example.com: mysecurepassword\r     alice.wonder@example.com: aliceinwonderland\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sumit Baghel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-list-endpoints": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}

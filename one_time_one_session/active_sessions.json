@@ -1,0 +1,10 @@
+[
+    {
+        "email": "john.doe@example.com",
+        "session_created": "2024-09-02T19:06:48.846Z"
+    },
+    {
+        "email": "jane.smith@example.com",
+        "session_created": "2024-09-02T19:09:44.957Z"
+    }
+]
