@@ -1,6 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const oneTimeOneSession = require("./one_time_one_session");
+const oneTimeMultipleSessions = require("./one_time_multiple_sessions");
 const expressListRoutes = require("express-list-endpoints");
 const app = express();
 
@@ -10,6 +11,8 @@ app.use(express.json()); // for parsing application/json
 
 
 app.use("/one-time-one-session", oneTimeOneSession);
+
+app.use("/one-time-multiple-sessions", oneTimeMultipleSessions);
 
 
 const server = app.listen(3000, () => {
